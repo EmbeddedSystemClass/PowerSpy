@@ -1,2 +1,2 @@
 # PowerSpy
-PowerSpy is a non-invasive two-phase residential energy meter for IoT applications.
+PowerSpy it's a non-invasive IoT device for two-phases energy monitoring.
