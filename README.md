@@ -1,2 +1,2 @@
 # PowerSpy
-PowerSpy it's a non-invasive IoT device for two-phases energy monitoring.
+PowerSpy it's an IoT device for non-invasive two-phases energy monitoring.
