@@ -354,6 +354,12 @@ UsedLibrary="D:/Google Drive/Eagle Libraries/BLE-1010.lbr"
 UsedLibrary="D:/Google Drive/Eagle Libraries/frames.lbr"
 UsedLibrary="D:/Google Drive/Eagle Libraries/ESP32-WROOM-32D.lbr"
 UsedLibrary="D:/Google Drive/Eagle Libraries/ESD5V0D5B.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/Micro USB Connector.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/Push Button.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/ADS1115IDGST.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/Mini-Fit.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/con-molex-mini-fit.lbr"
+UsedLibrary="D:/Google Drive/Eagle Libraries/BAV99.lbr"
 
 [Win_1]
 Type="Control Panel"
