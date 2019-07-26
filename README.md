@@ -5,7 +5,7 @@ PowerSpy it's an IoT device for non-invasive two-phases energy monitoring.
 
 
 ## Features
-##### Controller Device / [SoC ESP32 with dual-core Xtensa LX6 MPU, Bluetooth 4.2 and Wi-Fi](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+##### Controller Device / [SoC ESP32 with Xtensa® Dual-Core 32-bit LX6 MPU, Bluetooth 4.2 and Wi-Fi](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 
 ##### Low Power Requirements / Does not apply in this project
 
