@@ -13,6 +13,11 @@ PowerSpy it's an IoT device for non-invasive two-phases energy monitoring.
 
 ##### Firmware Project / [Eclipse IDE](https://www.eclipse.org/eclipseide/)
 
+## PCB Details
+![enter image description here](https://lh3.googleusercontent.com/m9QqyJfR_f3-HWAX1IB625DZE9T8VkSU2J2_XCJezVrO8DOCeZCGFDNGWfR9vlJF8U0YfGIRv6g8Lw=s2000)
+
+## How to Connect
+![enter image description here](https://lh3.googleusercontent.com/HugnmxHnbU9tsVOp_1nKZY5oNI_aye506zYrn1BPDyA8mLoGkDU_Q7ljKt2AobxvQow89f0lQMVGlw=s2000)
 
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/FezRHeXiJ8NxWHYwz43uXWur2kJ8-Dr-AFNEujB44R5eYoGKj8gZyUDx6djPBlcZtZ34W24xNN9bCw=s2000)
