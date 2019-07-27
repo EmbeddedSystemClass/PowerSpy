@@ -13,6 +13,8 @@ PowerSpy it's an IoT device for non-invasive two-phases energy monitoring.
 
 ##### Firmware Project / [Eclipse IDE](https://www.eclipse.org/eclipseide/)
 
+##### 3D Model Project / [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/overview#banner)
+
 ## PCB Details
 ![enter image description here](https://lh3.googleusercontent.com/m9QqyJfR_f3-HWAX1IB625DZE9T8VkSU2J2_XCJezVrO8DOCeZCGFDNGWfR9vlJF8U0YfGIRv6g8Lw=s2000)
 
