@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14030,7 +14030,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IN-PI556FCH.p
 <plain>
 <text x="307.975" y="26.035" size="3.81" layer="94">Tiago Silva</text>
 <text x="290.83" y="19.685" size="2.54" layer="94">github.com/TiagoPaulaSilva/PowerSpy</text>
-<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">1.0</text>
+<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">2.0</text>
 <text x="306.705" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
 <text x="272.415" y="166.37" size="1.778" layer="97">AC/DC Converter Module</text>
 <wire x1="198.755" y1="259.715" x2="169.545" y2="259.715" width="0.254" layer="97" style="longdash"/>
