@@ -1,5 +1,5 @@
 # PowerSpy
-![Status](https://img.shields.io/badge/Status-UnderDev-red.svg) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+![Status](https://img.shields.io/badge/status-WIP-red) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
 PowerSpy is an IoT device for non-invasive two-phases energy monitoring.
 
