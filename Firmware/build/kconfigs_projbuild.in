@@ -1,0 +1,5 @@
+source "C:/msys32/home/ADM/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/msys32/home/ADM/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/msys32/home/ADM/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/Kconfig.projbuild"
+source "C:/msys32/home/ADM/esp/esp-idf/components/partition_table/Kconfig.projbuild"
