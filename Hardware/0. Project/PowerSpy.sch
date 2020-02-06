@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14509,6 +14509,9 @@ PHASE 2</text>
 <wire x1="4.445" y1="196.85" x2="107.315" y2="196.85" width="0.254" layer="152" style="longdash"/>
 <text x="22.86" y="170.18" size="1.778" layer="97">Máx. 1,65V</text>
 <text x="120.65" y="170.18" size="1.778" layer="97">Máx. 1,65V</text>
+<text x="215.9" y="76.2" size="1.6764" layer="97" font="vector" ratio="5" align="center">7-bits Slave Address
+0b1001000
+0x48</text>
 </plain>
 <instances>
 <instance part="U6" gate="G$1" x="340.36" y="85.09" smashed="yes">
