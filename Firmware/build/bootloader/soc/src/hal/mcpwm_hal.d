@@ -13,7 +13,7 @@ src/hal/mcpwm_hal.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/mcpwm_caps.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/hal_defs.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h
@@ -44,7 +44,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/hal_defs.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

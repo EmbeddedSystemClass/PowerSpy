@@ -1,7 +1,7 @@
 src/hal/ledc_hal_iram.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/src/hal/ledc_hal_iram.c \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/ledc_hal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/hal/ledc_ll.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/ledc_types.h \
@@ -15,7 +15,7 @@ src/hal/ledc_hal_iram.o: \
 
 C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/ledc_hal.h:
 

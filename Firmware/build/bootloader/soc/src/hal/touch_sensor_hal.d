@@ -14,7 +14,7 @@ src/hal/touch_sensor_hal.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/sens_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/touch_sensor_types.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/hal/touch_sensor_hal_esp32.h
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/touch_sensor_hal.h:
@@ -45,7 +45,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_struct.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/touch_sensor_types.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/hal/touch_sensor_hal_esp32.h:
 /home/ADM/esp/esp-idf/components/soc/src/hal/touch_sensor_hal.c:

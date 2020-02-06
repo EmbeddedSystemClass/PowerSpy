@@ -1,7 +1,7 @@
 esp32/rtc_clk_init.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/rtc_clk_init.c \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/rtc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -55,7 +55,7 @@ esp32/rtc_clk_init.o: \
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/rtc.h:
 

@@ -23,7 +23,7 @@ esp32/rtc_init.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp32/include/esp32/dport_access.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
@@ -85,7 +85,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp32/include/esp32/dport_access.h:
 

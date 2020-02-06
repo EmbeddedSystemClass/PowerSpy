@@ -1,5 +1,5 @@
-main.o: \
- C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/main.c \
+PowerSpy.o: \
+ C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/PowerSpy.c \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -165,4 +165,4 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
-/c/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/./main.c:
+/c/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/./PowerSpy.c:

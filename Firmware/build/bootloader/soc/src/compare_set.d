@@ -13,7 +13,7 @@ src/compare_set.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_assert.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
@@ -47,7 +47,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h:
 

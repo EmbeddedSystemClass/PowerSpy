@@ -2,7 +2,7 @@ src/hal/spi_slave_hal_iram.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/src/hal/spi_slave_hal_iram.c \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/spi_slave_hal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/soc/lldesc.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -25,7 +25,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/spi_slave_hal.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/soc/lldesc.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h:
 

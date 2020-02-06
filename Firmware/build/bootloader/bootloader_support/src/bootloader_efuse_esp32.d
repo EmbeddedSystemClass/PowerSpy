@@ -4,7 +4,7 @@ src/bootloader_efuse_esp32.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/rtc.h \
@@ -26,7 +26,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 

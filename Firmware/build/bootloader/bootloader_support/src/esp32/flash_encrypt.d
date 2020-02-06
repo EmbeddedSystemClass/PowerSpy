@@ -5,7 +5,7 @@ src/esp32/flash_encrypt.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
@@ -64,7 +64,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_flash_p
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_app_format.h:
 

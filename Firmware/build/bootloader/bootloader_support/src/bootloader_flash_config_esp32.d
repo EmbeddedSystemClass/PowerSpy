@@ -1,6 +1,6 @@
 src/bootloader_flash_config_esp32.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/src/bootloader_flash_config_esp32.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
@@ -28,7 +28,7 @@ src/bootloader_flash_config_esp32.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/esp_app_format.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h:
 

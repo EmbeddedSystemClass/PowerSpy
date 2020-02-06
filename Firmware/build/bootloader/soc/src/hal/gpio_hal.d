@@ -17,7 +17,7 @@ src/hal/gpio_hal.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
@@ -53,5 +53,5 @@ C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 /home/ADM/esp/esp-idf/components/soc/src/hal/gpio_hal.c:

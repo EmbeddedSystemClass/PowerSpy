@@ -1,6 +1,6 @@
 src/bootloader_random.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/src/bootloader_random.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -54,7 +54,7 @@ src/bootloader_random.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
 

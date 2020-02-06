@@ -1,6 +1,6 @@
 esp32/spi_flash_rom_patch.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/spi_flash/esp32/spi_flash_rom_patch.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
@@ -16,7 +16,7 @@ esp32/spi_flash_rom_patch.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

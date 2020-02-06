@@ -1,7 +1,7 @@
 esp32/rtc_time.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/rtc_time.c \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -31,7 +31,7 @@ esp32/rtc_time.o: \
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc.h:
 

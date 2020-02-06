@@ -1,6 +1,6 @@
 src/bootloader_init.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/src/bootloader_init.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h \
@@ -56,7 +56,7 @@ src/bootloader_init.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/soc/rtc_wdt.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h:
 

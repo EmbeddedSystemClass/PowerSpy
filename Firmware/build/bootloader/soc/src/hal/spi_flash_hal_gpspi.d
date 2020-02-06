@@ -13,7 +13,7 @@ src/hal/spi_flash_hal_gpspi.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/spi_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/spi_flash_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
@@ -52,7 +52,7 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/spi_types.h:
 

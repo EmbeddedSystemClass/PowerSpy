@@ -1,6 +1,6 @@
 src/esp32/secure_boot_signatures.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/src/esp32/secure_boot_signatures.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h \
@@ -21,7 +21,7 @@ src/esp32/secure_boot_signatures.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/sha.h \
  C:/msys32/home/ADM/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/uECC.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

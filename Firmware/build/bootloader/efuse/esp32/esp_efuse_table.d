@@ -1,6 +1,6 @@
 esp32/esp_efuse_table.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/efuse/esp32/esp_efuse_table.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/efuse/include/esp_efuse.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_err.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
@@ -9,7 +9,7 @@ esp32/esp_efuse_table.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/efuse/include/esp32/esp_efuse.h \
  C:/msys32/home/ADM/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/efuse/include/esp_efuse.h:
 

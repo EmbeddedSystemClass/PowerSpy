@@ -1,6 +1,6 @@
 esp32/emac_hal.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/emac_hal.c \
- c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h \
+ c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h \
  C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
@@ -28,7 +28,7 @@ esp32/emac_hal.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/emac_mac_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/emac_ext_struct.h
 
-c:\msys32\home\adm\esp\esp-idf\examples\get-started\blink\build\include\sdkconfig.h:
+c:\users\adm\documents\eagle\projects\powerspy\firmware\build\include\sdkconfig.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/xtensa/include/esp_attr.h:
 
