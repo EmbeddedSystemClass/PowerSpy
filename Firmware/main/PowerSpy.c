@@ -1,41 +1,70 @@
-/* Blink Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "sdkconfig.h"
+#include "esp_system.h"
 
-/* Can use project configuration menu (idf.py menuconfig) to choose the GPIO to blink,
-   or you can edit the following line and set a number here.
-*/
-#define BLINK_GPIO 27
+/* HARDWARE PINS DEFINITIONS */
 
-void app_main(void)
-{
-    /* Configure the IOMUX register for pad BLINK_GPIO (some pads are
-       muxed to GPIO on reset already, but some default to other
-       functions and need to be switched to GPIO. Consult the
-       Technical Reference for a list of pads and their default
-       functions.)
-    */
-    gpio_pad_select_gpio(BLINK_GPIO);
-    /* Set the GPIO as a push/pull output */
-    gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
+//User's Interface
+#define LED_RED_PIN 			25
+#define LED_GREEEN_PIN  		26
+#define LED_BLUE_PIN			27
+#define BUTTON_PROG_PIN			23
+
+//Analog Front-End Interface
+#define ADC_CURRENT_L1_PIN 		32
+#define ADC_CURRENT_L2_PIN 		33
+#define ADC_VOLTAGE_L1_PIN 		34
+#define ADC_VOLTAGE_L2_PIN 		35
+
+#define ADC_TO_I2C_ALERT		19
+#define ADC_TO_I2C_SDA			21
+#define ADC_TO_I2C_SCL			22
+
+int color_led = 0;
+int debounce = 0;
+
+
+void app_main(void) {
+
+    gpio_pad_select_gpio(LED_RED_PIN);
+    gpio_pad_select_gpio(LED_GREEEN_PIN);
+    gpio_pad_select_gpio(LED_BLUE_PIN);
+    gpio_pad_select_gpio(BUTTON_PROG_PIN);
+
+    gpio_set_direction(LED_RED_PIN,    GPIO_MODE_OUTPUT);
+    gpio_set_direction(LED_GREEEN_PIN, GPIO_MODE_OUTPUT);
+    gpio_set_direction(LED_BLUE_PIN,   GPIO_MODE_OUTPUT);
+    gpio_set_direction(BUTTON_PROG_PIN, GPIO_MODE_INPUT);
+
+    gpio_set_level(LED_RED_PIN, 0);
+    gpio_set_level(LED_GREEEN_PIN, 0);
+    gpio_set_level(LED_BLUE_PIN, 0);
+
+    printf("Hello world!\n");
+
     while(1) {
-        /* Blink off (output low) */
-	printf("Turning off the LED\n");
-        gpio_set_level(BLINK_GPIO, 0);
-        vTaskDelay(100 / portTICK_PERIOD_MS);
-        /* Blink on (output high) */
-	printf("Turning on the LED\n");
-        gpio_set_level(BLINK_GPIO, 1);
-        vTaskDelay(100 / portTICK_PERIOD_MS);
+
+
+    	if(!gpio_get_level(BUTTON_PROG_PIN))
+    	{
+    		debounce = 0;
+
+    		while(!gpio_get_level(BUTTON_PROG_PIN)) {
+    			debounce++;
+    		}
+
+    		if (debounce >= 500)
+    			color_led++;
+
+    		printf("Color: %d\n", color_led);
+    	}
+
+    	if(color_led == 0)      { gpio_set_level(LED_RED_PIN, 1); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 0); }
+    	else if(color_led == 1) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 1); gpio_set_level(LED_BLUE_PIN, 0); }
+    	else if(color_led == 2) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 1); }
+    	else color_led = 0;
     }
 }

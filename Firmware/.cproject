@@ -29,7 +29,7 @@
             			
             <storageModule moduleId="cdtBuildSystem" version="4.0.0">
                 				
-                <configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.643716295" name="Default" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="org.eclipse.cdt.build.core.emptycfg">
+                <configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.643716295" name="Default" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="org.eclipse.cdt.build.core.emptycfg">
                     					
                     <folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.643716295.1959865840" name="/" resourcePath="">
                         						
@@ -44,6 +44,12 @@
                             <builder arguments="${IDF_PATH}/tools/windows/eclipse_make.py" command="python" id="cdt.managedbuild.builder.gnu.cross.846010288" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1009709434" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1129177271" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;C:\msys32\home\ADM\esp\esp-idf\components\freertos\include&quot;"/>
+                                    								
+                                </option>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1815223938" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
                                 							
@@ -169,11 +175,27 @@
         	
     </storageModule>
     	
-    <storageModule moduleId="scannerConfiguration"/>
-    	
     <storageModule moduleId="org.eclipse.cdt.core.pathentry">
         		
         <pathentry excluding="**/CMakeFiles/**" kind="out" path="build"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.643716295;cdt.managedbuild.toolchain.gnu.cross.base.643716295.1959865840;cdt.managedbuild.tool.gnu.cross.c.compiler.1009709434;cdt.managedbuild.tool.gnu.c.compiler.input.1815223938">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.643716295;cdt.managedbuild.toolchain.gnu.cross.base.643716295.1959865840;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1749127931;cdt.managedbuild.tool.gnu.cpp.compiler.input.614315736">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
         	
     </storageModule>
     
