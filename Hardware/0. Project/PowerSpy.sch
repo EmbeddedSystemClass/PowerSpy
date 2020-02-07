@@ -14511,6 +14511,9 @@ PHASE 2</text>
 <wire x1="4.445" y1="196.85" x2="107.315" y2="196.85" width="0.254" layer="152" style="longdash"/>
 <text x="22.86" y="167.64" size="1.778" layer="97">Máx. 1,65V</text>
 <text x="120.65" y="167.64" size="1.778" layer="97">Máx. 1,65V</text>
+<text x="215.9" y="75.565" size="1.778" layer="97" font="vector" align="center">7-bits Slave Address
+0b1001000
+0x48</text>
 </plain>
 <instances>
 <instance part="U6" gate="G$1" x="340.36" y="85.09" smashed="yes">
