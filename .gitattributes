@@ -1,10 +1,3 @@
-*.c linguist-language=Eagle
-*.cpp linguist-language=Eagle
-
-special-vendored-path/* linguist-vendored
-*.c linguist-vendored=false
-*.cpp linguist-vendored=false
-
-
-*.c linguist-detectable=true
-*.cpp linguist-detectable=true
+*.d linguist-detectable=false
+*.mk linguist-detectable=false
+*.cmake linguist-detectable=false
