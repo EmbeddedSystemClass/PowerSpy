@@ -1,11 +1,13 @@
+/* 			LIBRARIES DECLARATION 			*/
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "esp_system.h"
 #include "driver/gpio.h"
 #include "sdkconfig.h"
-#include "esp_system.h"
 
-/* HARDWARE PINS DEFINITIONS */
+
+/* 			HARDWARE PINS DEFINITIONS 			*/
 
 //User's Interface
 #define LED_RED_PIN 			25
@@ -23,11 +25,17 @@
 #define ADC_TO_I2C_SDA			21
 #define ADC_TO_I2C_SCL			22
 
+/* 			GLOBAL VARIABLES 			*/
 int color_led = 0;
 int debounce = 0;
 
 
-void app_main(void) {
+/* 			FUNCTIONS PROTOTYPES 			*/
+void led_controller(void *pvParameter);
+void button_read(void *pvParameter);
+
+void app_main() {
+    //nvs_flash_init();
 
     gpio_pad_select_gpio(LED_RED_PIN);
     gpio_pad_select_gpio(LED_GREEEN_PIN);
@@ -45,9 +53,23 @@ void app_main(void) {
 
     printf("Hello world!\n");
 
-    while(1) {
+    xTaskCreate(&led_controller, "led_controller", 2048, NULL, 1, NULL);
+    xTaskCreate(&button_read, "button_read", 2048, NULL, 1, NULL);
+}
 
+void led_controller(void *pvParameter) {
+	while(1)
+	{
+    	if(color_led == 0)      { gpio_set_level(LED_RED_PIN, 1); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 0); }
+    	else if(color_led == 1) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 1); gpio_set_level(LED_BLUE_PIN, 0); }
+    	else if(color_led == 2) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 1); }
 
+	}
+}
+
+void button_read(void *pvParameter) {
+	while(1)
+	{
     	if(!gpio_get_level(BUTTON_PROG_PIN))
     	{
     		debounce = 0;
@@ -59,12 +81,10 @@ void app_main(void) {
     		if (debounce >= 500)
     			color_led++;
 
+    	  	if( color_led > 2)
+    	  		color_led = 0;
+
     		printf("Color: %d\n", color_led);
     	}
-
-    	if(color_led == 0)      { gpio_set_level(LED_RED_PIN, 1); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 0); }
-    	else if(color_led == 1) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 1); gpio_set_level(LED_BLUE_PIN, 0); }
-    	else if(color_led == 2) { gpio_set_level(LED_RED_PIN, 0); gpio_set_level(LED_GREEEN_PIN, 0); gpio_set_level(LED_BLUE_PIN, 1); }
-    	else color_led = 0;
-    }
+	}
 }
