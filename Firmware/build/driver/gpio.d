@@ -62,7 +62,6 @@ gpio.o: C:/msys32/home/ADM/esp/esp-idf/components/driver/gpio.c \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_struct.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/rtc_io_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_ipc.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_hal.h \
@@ -193,8 +192,6 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_struct.
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/rtc_io_types.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
-
-C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_ipc.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h:
 

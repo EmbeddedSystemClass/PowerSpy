@@ -351,7 +351,7 @@ SECTIONS
     *liblog.a:log.*(.rodata.esp_log_level_set.str1.4 .rodata.__func__$3523 .rodata.__func__$3500)
     *liblog.a:log_freertos.*(.rodata.esp_log_system_timestamp.str1.4)
     *libesp_event.a:default_event_loop.*(.rodata.esp_event_loop_create_default.str1.4 .rodata.esp_event_send_to_default_loop)
-    *libesp_event.a:esp_event.*(.rodata.handler_instances_add.str1.4 .rodata.base_node_add_handler.str1.4 .rodata.loop_node_add_handler.str1.4 .rodata.esp_event_loop_create.str1.4 .rodata.esp_event_loop_run.str1.4 .rodata.esp_event_loop_run_task.str1.4 .rodata.esp_event_handler_register_with.str1.4 .rodata.esp_event_handler_unregister_with.str1.4 .rodata.__func__$8717 .rodata.__func__$8704 .rodata.__func__$8684 .rodata.__func__$8668 .rodata.__func__$8645 .rodata.__func__$8604 .rodata.__func__$8595)
+    *libesp_event.a:esp_event.*(.rodata.handler_instances_add.str1.4 .rodata.base_node_add_handler.str1.4 .rodata.loop_node_add_handler.str1.4 .rodata.esp_event_loop_create.str1.4 .rodata.esp_event_loop_run.str1.4 .rodata.esp_event_loop_run_task.str1.4 .rodata.esp_event_handler_register_with.str1.4 .rodata.esp_event_handler_unregister_with.str1.4 .rodata.__func__$8698 .rodata.__func__$8685 .rodata.__func__$8665 .rodata.__func__$8649 .rodata.__func__$8626 .rodata.__func__$8585 .rodata.__func__$8576)
     *libsoc.a:uart_hal_iram.*( .rodata  .rodata.*)
 
     *(.irom1.text) /* catch stray ICACHE_RODATA_ATTR */

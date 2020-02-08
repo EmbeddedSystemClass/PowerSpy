@@ -46,8 +46,7 @@ intr_alloc.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
- C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h \
- C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_ipc.h
+ C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h
 
 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/include/sdkconfig.h:
 
@@ -142,6 +141,4 @@ C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h:
 C:/msys32/home/ADM/esp/esp-idf/components/esp32/include/esp_intr_alloc.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h:
-
-C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_ipc.h:
 /home/ADM/esp/esp-idf/components/esp32/./intr_alloc.c:

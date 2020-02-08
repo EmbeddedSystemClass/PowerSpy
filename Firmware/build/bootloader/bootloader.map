@@ -129,7 +129,7 @@ Discarded input sections
  .text.bootloader_configure_spi_pins
                 0x00000000      0x1da C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .xt.lit        0x00000000       0x68 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- .xt.prop       0x00000000      0x5b8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ .xt.prop       0x00000000      0x5d0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .text          0x00000000        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .data          0x00000000        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .bss           0x00000000        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
@@ -1202,7 +1202,7 @@ END GROUP
  *(.gnu.version)
                 0x4007ba0e                _loader_text_end = ABSOLUTE (.)
 
-.iram.text      0x40080400     0x11d6
+.iram.text      0x40080400     0x112e
                 0x40080400                . = ALIGN (0x10)
  *(.entry.text)
  *(.init.literal)
@@ -1248,222 +1248,219 @@ END GROUP
  .literal.wdt_reset_cpu0_info_enable
                 0x4008045c        0x4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .literal.bootloader_reset_mmu
-                0x40080460       0x1c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
-                                 0x28 (size before relaxing)
+                0x40080460       0x10 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .literal.bootloader_check_rated_cpu_clock
-                0x4008047c        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080470        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x14 (size before relaxing)
  .literal.print_flash_info
-                0x40080484       0x50 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080478       0x50 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x6c (size before relaxing)
  .literal.wdt_reset_info_dump
-                0x400804d4       0x58 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
-                                 0x6c (size before relaxing)
+                0x400804c8       0x38 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                                 0x54 (size before relaxing)
  .literal.bootloader_init_uart_console
-                0x4008052c       0x18 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080500       0x18 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x1c (size before relaxing)
  .literal.update_flash_config
-                0x40080544       0x18 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080518       0x18 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x24 (size before relaxing)
  .literal.bootloader_init_spi_flash
-                0x4008055c        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080530        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_check_wdt_reset
-                0x4008055c        0xc C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080530        0xc C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x30 (size before relaxing)
  .literal.abort
-                0x40080568        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x4008053c        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x10 (size before relaxing)
  .literal.bootloader_init
-                0x40080570       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080544       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x7c (size before relaxing)
  .literal.bootloader_flash_update_id
-                0x4008059c        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
+                0x40080570        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
                                   0x8 (size before relaxing)
  .literal.execute_flash_command
-                0x4008059c       0x38 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080570       0x38 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                  0x3c (size before relaxing)
  .literal.bootloader_read_flash_id
-                0x400805d4        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x400805a8        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x400805dc       0x54 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400805b0       0x54 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x70 (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x40080630        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x40080604        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_wait_for_slow_cycle
-                0x40080630        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x40080604        0x8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x20 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x40080638       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x4008060c       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0x4c (size before relaxing)
  .literal.rtc_clk_init
-                0x40080658       0x40 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x4008062c       0x40 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xa8 (size before relaxing)
  .literal.rtc_vddsdio_get_config
-                0x40080698        0xc C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x4008066c        0xc C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
                                  0x10 (size before relaxing)
  .literal.rtc_vddsdio_set_config
-                0x400806a4        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40080678        0x0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
                                   0x8 (size before relaxing)
  .text.selected_boot_partition
-                0x400806a4       0x1a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40080678       0x1a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x1e (size before relaxing)
- *fill*         0x400806be        0x2 
+ *fill*         0x40080692        0x2 
  .text.select_partition_number
-                0x400806c0       0x30 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40080694       0x30 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x34 (size before relaxing)
  .text.call_start_cpu0
-                0x400806f0       0x35 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400806c4       0x35 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x3c (size before relaxing)
-                0x400806f0                call_start_cpu0
- *fill*         0x40080725        0x3 
+                0x400806c4                call_start_cpu0
+ *fill*         0x400806f9        0x3 
  .text.bootloader_clear_bss_section
-                0x40080728       0x16 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
-                0x40080728                bootloader_clear_bss_section
- *fill*         0x4008073e        0x2 
+                0x400806fc       0x16 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400806fc                bootloader_clear_bss_section
+ *fill*         0x40080712        0x2 
  .text.bootloader_read_bootloader_header
-                0x40080740       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080714       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x30 (size before relaxing)
-                0x40080740                bootloader_read_bootloader_header
+                0x40080714                bootloader_read_bootloader_header
  .text.bootloader_check_bootloader_validity
-                0x4008076c       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080740       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x34 (size before relaxing)
-                0x4008076c                bootloader_check_bootloader_validity
+                0x40080740                bootloader_check_bootloader_validity
  .text.bootloader_config_wdt
-                0x40080798       0x4c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x4008076c       0x4c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x68 (size before relaxing)
-                0x40080798                bootloader_config_wdt
+                0x4008076c                bootloader_config_wdt
  .text.bootloader_enable_random
-                0x400807e4       0x19 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400807b8       0x19 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x20 (size before relaxing)
-                0x400807e4                bootloader_enable_random
- *fill*         0x400807fd        0x3 
+                0x400807b8                bootloader_enable_random
+ *fill*         0x400807d1        0x3 
  .text.bootloader_print_banner
-                0x40080800       0x2e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400807d4       0x2e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x32 (size before relaxing)
-                0x40080800                bootloader_print_banner
- *fill*         0x4008082e        0x2 
+                0x400807d4                bootloader_print_banner
+ *fill*         0x40080802        0x2 
  .text.__assert_func
-                0x40080830       0x1f C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080804       0x1f C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x23 (size before relaxing)
-                0x40080830                __assert_func
- *fill*         0x4008084f        0x1 
+                0x40080804                __assert_func
+ *fill*         0x40080823        0x1 
  .text.bootloader_common_get_chip_revision
-                0x40080850       0x4d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
-                0x40080850                bootloader_common_get_chip_revision
- *fill*         0x4008089d        0x3 
+                0x40080824       0x4d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
+                0x40080824                bootloader_common_get_chip_revision
+ *fill*         0x40080871        0x3 
  .text.bootloader_clock_get_rated_freq_mhz
-                0x400808a0       0x2d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
-                0x400808a0                bootloader_clock_get_rated_freq_mhz
- *fill*         0x400808cd        0x3 
+                0x40080874       0x2d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
+                0x40080874                bootloader_clock_get_rated_freq_mhz
+ *fill*         0x400808a1        0x3 
  .text.wdt_reset_cpu0_info_enable
-                0x400808d0       0x27 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x400808f7        0x1 
+                0x400808a4       0x27 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x400808cb        0x1 
  .text.bootloader_reset_mmu
-                0x400808f8       0x79 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x40080971        0x3 
+                0x400808cc       0x30 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .text.bootloader_check_rated_cpu_clock
-                0x40080974       0x2d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x400808fc       0x2d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x35 (size before relaxing)
- *fill*         0x400809a1        0x3 
+ *fill*         0x40080929        0x3 
  .text.print_flash_info
-                0x400809a4       0xf3 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x40080a97        0x1 
+                0x4008092c       0xf3 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x40080a1f        0x1 
  .text.wdt_reset_info_dump
-                0x40080a98       0xe2 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
-                                 0xea (size before relaxing)
- *fill*         0x40080b7a        0x2 
+                0x40080a20       0xb6 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                                 0xbe (size before relaxing)
+ *fill*         0x40080ad6        0x2 
  .text.bootloader_init_uart_console
-                0x40080b7c       0x36 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080ad8       0x36 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x3a (size before relaxing)
- *fill*         0x40080bb2        0x2 
+ *fill*         0x40080b0e        0x2 
  .text.update_flash_config
-                0x40080bb4       0x64 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080b10       0x64 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .text.bootloader_init_spi_flash
-                0x40080c18       0x1a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080b74       0x1a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x26 (size before relaxing)
- *fill*         0x40080c32        0x2 
+ *fill*         0x40080b8e        0x2 
  .text.bootloader_check_wdt_reset
-                0x40080c34       0xa6 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080b90       0xa2 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0xb2 (size before relaxing)
- *fill*         0x40080cda        0x2 
- .text.abort    0x40080cdc       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x40080c32        0x2 
+ .text.abort    0x40080c34       0x2c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                  0x2f (size before relaxing)
-                0x40080cdc                abort
- *fill*         0x40080d08        0x0 
+                0x40080c34                abort
+ *fill*         0x40080c60        0x0 
  .text.bootloader_init
-                0x40080d08       0xe2 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x40080c60       0xe2 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
                                 0x11a (size before relaxing)
-                0x40080d08                bootloader_init
- *fill*         0x40080dea        0x2 
+                0x40080c60                bootloader_init
+ *fill*         0x40080d42        0x2 
  .text.bootloader_flash_update_id
-                0x40080dec        0xd C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
+                0x40080d44        0xd C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
                                  0x10 (size before relaxing)
-                0x40080dec                bootloader_flash_update_id
- *fill*         0x40080df9        0x3 
+                0x40080d44                bootloader_flash_update_id
+ *fill*         0x40080d51        0x3 
  .text.execute_flash_command
-                0x40080dfc      0x18c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080d54      0x18c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x40080f88       0x2a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080ee0       0x2a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                  0x2e (size before relaxing)
-                0x40080f88                bootloader_read_flash_id
- *fill*         0x40080fb2        0x2 
+                0x40080ee0                bootloader_read_flash_id
+ *fill*         0x40080f0a        0x2 
  .text.rtc_clk_cal_internal
-                0x40080fb4      0x1d0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x40080f0c      0x1d0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
                                 0x1dc (size before relaxing)
  .text.rtc_clk_cal_ratio
-                0x40081184       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400810dc       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x24 (size before relaxing)
-                0x40081184                rtc_clk_cal_ratio
+                0x400810dc                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x400811a4       0x79 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
-                0x400811a4                rtc_clk_wait_for_slow_cycle
- *fill*         0x4008121d        0x3 
+                0x400810fc       0x79 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400810fc                rtc_clk_wait_for_slow_cycle
+ *fill*         0x40081175        0x3 
  .text.rtc_clk_xtal_freq_estimate
-                0x40081220       0xab C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x40081178       0xab C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xb7 (size before relaxing)
- *fill*         0x400812cb        0x1 
+ *fill*         0x40081223        0x1 
  .text.rtc_clk_init
-                0x400812cc      0x1ea C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x40081224      0x1ea C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                 0x21e (size before relaxing)
-                0x400812cc                rtc_clk_init
- *fill*         0x400814b6        0x2 
+                0x40081224                rtc_clk_init
+ *fill*         0x4008140e        0x2 
  .text.rtc_vddsdio_get_config
-                0x400814b8       0xd7 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
-                0x400814b8                rtc_vddsdio_get_config
- *fill*         0x4008158f        0x1 
+                0x40081410       0xd7 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40081410                rtc_vddsdio_get_config
+ *fill*         0x400814e7        0x1 
  .text.rtc_vddsdio_set_config
-                0x40081590       0x46 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
-                0x40081590                rtc_vddsdio_set_config
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
- *fill*         0x400815d6        0x0 
+                0x400814e8       0x46 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x400814e8                rtc_vddsdio_set_config
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
+ *fill*         0x4008152e        0x0 
  *(.iram .iram.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x400815d6                _text_end = ABSOLUTE (.)
-                0x400815d6                _etext = .
+                0x4008152e                _text_end = ABSOLUTE (.)
+                0x4008152e                _etext = .
 
 .dram0.bss      0x3fff0000       0x30
                 0x3fff0000                . = ALIGN (0x8)
@@ -1514,7 +1511,7 @@ END GROUP
  *(.jcr)
                 0x3fff0034                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x3fff0034     0x1c18
+.dram0.rodata   0x3fff0034     0x1c54
                 0x3fff0034                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x3fff0034       0x14 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
@@ -1601,120 +1598,120 @@ END GROUP
  .rodata.print_flash_info
                 0x3fff0e4c       0x14 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .rodata.wdt_reset_info_dump.str1.4
-                0x3fff0e60       0x82 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x3fff0ee2        0x2 
+                0x3fff0e60       0xbe C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x3fff0f1e        0x2 
  .rodata.update_flash_config
-                0x3fff0ee4       0x14 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x3fff0f20       0x14 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .rodata.bootloader_check_wdt_reset.str1.4
-                0x3fff0ef8       0x6e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x3fff0f66        0x2 
+                0x3fff0f34       0x6e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x3fff0fa2        0x2 
  .rodata.abort.str1.4
-                0x3fff0f68       0x22 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x3fff0f8a        0x2 
+                0x3fff0fa4       0x22 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x3fff0fc6        0x2 
  .rodata.bootloader_init.str1.4
-                0x3fff0f8c       0xba C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- *fill*         0x3fff1046        0x2 
+                0x3fff0fc8       0xba C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ *fill*         0x3fff1082        0x2 
  .rodata.__func__$7193
-                0x3fff1048       0x10 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+                0x3fff1084       0x10 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
  .rodata.bootloader_sha256_data.str1.4
-                0x3fff1058       0x7a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff10d2        0x2 
+                0x3fff1094       0x7a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff110e        0x2 
  .rodata.bootloader_sha256_finish.str1.4
-                0x3fff10d4       0x5c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff1110       0x5c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$4028
-                0x3fff1130       0x40 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff116c       0x40 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$4024
-                0x3fff1170       0x19 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff1189        0x3 
+                0x3fff11ac       0x19 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff11c5        0x3 
  .rodata.__func__$4004
-                0x3fff118c       0x17 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff11a3        0x1 
+                0x3fff11c8       0x17 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff11df        0x1 
  .rodata.bootloader_fill_random.str1.4
-                0x3fff11a4       0x65 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff1209        0x3 
+                0x3fff11e0       0x65 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff1245        0x3 
  .rodata.__func__$5184
-                0x3fff120c       0x17 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff1223        0x1 
+                0x3fff1248       0x17 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff125f        0x1 
  .rodata.verify_segment_header.str1.4
-                0x3fff1224       0x91 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff12b5        0x3 
+                0x3fff1260       0x91 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff12f1        0x3 
  .rodata.verify_checksum.str1.4
-                0x3fff12b8       0x42 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff12fa        0x2 
+                0x3fff12f4       0x42 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff1336        0x2 
  .rodata.verify_image_header.str1.4
-                0x3fff12fc       0xb9 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff1338       0xb9 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .rodata.process_segment_data.str1.4
-                0x3fff13b5       0x3a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff13b5        0x3 
+                0x3fff13f1       0x3a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff13f1        0x3 
  .rodata.verify_simple_hash.str1.4
-                0x3fff13b8       0x5a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff1412        0x2 
+                0x3fff13f4       0x5a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff144e        0x2 
  .rodata.process_segment.str1.4
-                0x3fff1414      0x20b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff1450      0x20b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x20f (size before relaxing)
- *fill*         0x3fff161f        0x1 
+ *fill*         0x3fff165b        0x1 
  .rodata.image_load.str1.4
-                0x3fff1620      0x10a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff172a        0x2 
+                0x3fff165c      0x10a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff1766        0x2 
  .rodata.__func__$4303
-                0x3fff172c       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff1768       0x20 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .rodata.esp_partition_table_verify.str1.4
-                0x3fff174c      0x163 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- *fill*         0x3fff18af        0x1 
+                0x3fff1788      0x163 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ *fill*         0x3fff18eb        0x1 
  .rodata.rtc_clk_cpu_freq_to_config.str1.4
-                0x3fff18b0       0x3c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x3fff18ec       0x3c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_get_config.str1.4
-                0x3fff18ec       0x3b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x3fff1927        0x1 
+                0x3fff1928       0x3b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x3fff1963        0x1 
  .rodata.rtc_clk_cpu_freq_to_pll_mhz.str1.4
-                0x3fff1928       0x29 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x3fff1951        0x3 
+                0x3fff1964       0x29 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x3fff198d        0x3 
  .rodata.rtc_clk_cal_internal.str1.4
-                0x3fff1954       0xad C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
- *fill*         0x3fff1a01        0x3 
+                0x3fff1990       0xad C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+ *fill*         0x3fff1a3d        0x3 
  .rodata.__func__$3903
-                0x3fff1a04       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
- *fill*         0x3fff1a19        0x3 
+                0x3fff1a40       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+ *fill*         0x3fff1a55        0x3 
  .rodata.rtc_clk_xtal_freq_estimate.str1.4
-                0x3fff1a1c       0xec C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff1a58       0xec C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x3fff1b08       0x64 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff1b44       0x64 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
  .rodata.rtc_clk_init.str1.4
-                0x3fff1b6c       0xe0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff1ba8       0xe0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xdf (size before relaxing)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x3fff1c4c                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x3fff1c88                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x3fff1c4c                . = ((. + 0x3) & 0xfffffffc)
-                0x3fff1c4c                __init_array_start = ABSOLUTE (.)
+                0x3fff1c88                . = ((. + 0x3) & 0xfffffffc)
+                0x3fff1c88                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x3fff1c4c                __init_array_end = ABSOLUTE (.)
+                0x3fff1c88                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x3fff1c4c                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x3fff1c88                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x3fff1c4c                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x3fff1c88                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x3fff1c4c                _rodata_end = ABSOLUTE (.)
-                0x3fff1c4c                _lit4_start = ABSOLUTE (.)
+                0x3fff1c88                _rodata_end = ABSOLUTE (.)
+                0x3fff1c88                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x3fff1c4c                _lit4_end = ABSOLUTE (.)
-                0x3fff1c4c                . = ALIGN (0x4)
+                0x3fff1c88                _lit4_end = ABSOLUTE (.)
+                0x3fff1c88                . = ALIGN (0x4)
                 0x40008550                PROVIDE (ets_update_cpu_frequency = 0x40008550)
                 0x4005db1c                PROVIDE (MD5Final = 0x4005db1c)
                 0x4005da7c                PROVIDE (MD5Init = 0x4005da7c)
@@ -3404,31 +3401,31 @@ OUTPUT(C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/
  .debug_frame   0x00001300       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
  .debug_frame   0x00001328       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
-.debug_info     0x00000000    0x5ed99
+.debug_info     0x00000000    0x5eb58
  .debug_info    0x00000000      0xe97 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_info    0x00000e97     0x5295 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
  .debug_info    0x0000612c     0x8505 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
  .debug_info    0x0000e631     0x5896 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .debug_info    0x00013ec7     0x2108 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .debug_info    0x00015fcf      0x9ff C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
- .debug_info    0x000169ce     0x9c8c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- .debug_info    0x0002065a     0x1538 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x00021b92     0x792a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_info    0x000294bc     0x2abf C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0002bf7b      0xe2e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0002cda9     0x175d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
- .debug_info    0x0002e506     0x61ed C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x000346f3     0x36c0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x00037db3      0xa09 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
- .debug_info    0x000387bc     0x3c9a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x0003c456     0x8282 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_info    0x000446d8     0x4dc8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
- .debug_info    0x000494a0     0x776e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
- .debug_info    0x00050c0e     0x4257 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
- .debug_info    0x00054e65     0x4382 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
- .debug_info    0x000591e7     0x3fb3 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
- .debug_info    0x0005d19a      0xb02 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
- .debug_info    0x0005dc9c     0x10fd c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
+ .debug_info    0x000169ce     0x9a4b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ .debug_info    0x00020419     0x1538 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x00021951     0x792a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0002927b     0x2abf C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0002bd3a      0xe2e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x0002cb68     0x175d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
+ .debug_info    0x0002e2c5     0x61ed C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x000344b2     0x36c0 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x00037b72      0xa09 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
+ .debug_info    0x0003857b     0x3c9a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x0003c215     0x8282 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_info    0x00044497     0x4dc8 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_info    0x0004925f     0x776e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+ .debug_info    0x000509cd     0x4257 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+ .debug_info    0x00054c24     0x4382 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
+ .debug_info    0x00058fa6     0x3fb3 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
+ .debug_info    0x0005cf59      0xb02 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
+ .debug_info    0x0005da5b     0x10fd c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x00000000     0x50d8
  .debug_abbrev  0x00000000      0x2a5 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
@@ -3456,31 +3453,31 @@ OUTPUT(C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/
  .debug_abbrev  0x00004cad      0x1b1 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
  .debug_abbrev  0x00004e5e      0x27a c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
-.debug_loc      0x00000000     0x6f7b
+.debug_loc      0x00000000     0x6e0a
  .debug_loc     0x00000000       0xab C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_loc     0x000000ab      0x857 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
  .debug_loc     0x00000902      0xee3 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
  .debug_loc     0x000017e5       0x41 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .debug_loc     0x00001826      0x839 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .debug_loc     0x0000205f       0x77 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
- .debug_loc     0x000020d6      0x930 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- .debug_loc     0x00002a06      0x183 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x00002b89      0x105 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x00002c8e      0xfc7 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x00003c55      0x1ef C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x00003e44      0x1f4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
- .debug_loc     0x00004038       0x75 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
- .debug_loc     0x000040ad      0x2c4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
- .debug_loc     0x00004371       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
- .debug_loc     0x00004386      0xba6 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x00004f2c      0xb1c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_loc     0x00005a48      0x2aa C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
- .debug_loc     0x00005cf2      0x22b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
- .debug_loc     0x00005f1d      0x275 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
- .debug_loc     0x00006192      0x39d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
- .debug_loc     0x0000652f       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
- .debug_loc     0x00006544       0x25 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
- .debug_loc     0x00006569      0xa12 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
+ .debug_loc     0x000020d6      0x7bf C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ .debug_loc     0x00002895      0x183 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x00002a18      0x105 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x00002b1d      0xfc7 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00003ae4      0x1ef C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00003cd3      0x1f4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
+ .debug_loc     0x00003ec7       0x75 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+ .debug_loc     0x00003f3c      0x2c4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+ .debug_loc     0x00004200       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
+ .debug_loc     0x00004215      0xba6 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x00004dbb      0xb1c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_loc     0x000058d7      0x2aa C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_loc     0x00005b81      0x22b C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+ .debug_loc     0x00005dac      0x275 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+ .debug_loc     0x00006021      0x39d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
+ .debug_loc     0x000063be       0x15 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
+ .debug_loc     0x000063d3       0x25 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
+ .debug_loc     0x000063f8      0xa12 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x00000000      0x830
  .debug_aranges
@@ -3557,31 +3554,31 @@ OUTPUT(C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/
  .debug_ranges  0x000007a0       0x28 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
  .debug_ranges  0x000007c8       0xa0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
-.debug_line     0x00000000    0x123a7
+.debug_line     0x00000000    0x12065
  .debug_line    0x00000000      0x543 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_line    0x00000543     0x131c C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
  .debug_line    0x0000185f     0x1f06 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
  .debug_line    0x00003765      0x87a C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .debug_line    0x00003fdf     0x11a7 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .debug_line    0x00005186      0x351 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_efuse_esp32.o)
- .debug_line    0x000054d7     0x180e C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
- .debug_line    0x00006ce5      0x753 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x00007438      0x7bb C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_line    0x00007bf3     0x1df5 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_line    0x000099e8      0x6e1 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000a0c9      0x7ee C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
- .debug_line    0x0000a8b7      0x56d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000ae24      0xab4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x0000b8d8      0x335 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
- .debug_line    0x0000bc0d     0x19ef C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000d5fc     0x17fa C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_line    0x0000edf6      0x8ac C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
- .debug_line    0x0000f6a2      0x971 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
- .debug_line    0x00010013      0x913 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
- .debug_line    0x00010926      0x871 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
- .debug_line    0x00011197      0x3a5 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
- .debug_line    0x0001153c      0x391 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
- .debug_line    0x000118cd      0xada c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
+ .debug_line    0x000054d7     0x14cc C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_esp32.o)
+ .debug_line    0x000069a3      0x753 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x000070f6      0x7bb C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000078b1     0x1df5 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x000096a6      0x6e1 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00009d87      0x7ee C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash_config_esp32.o)
+ .debug_line    0x0000a575      0x56d C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x0000aae2      0xab4 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x0000b596      0x335 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/log\liblog.a(log_noos.o)
+ .debug_line    0x0000b8cb     0x19ef C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000d2ba     0x17fa C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_line    0x0000eab4      0x8ac C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_line    0x0000f360      0x971 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+ .debug_line    0x0000fcd1      0x913 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_init.o)
+ .debug_line    0x000105e4      0x871 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(rtc_wdt.o)
+ .debug_line    0x00010e55      0x3a5 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/soc\libsoc.a(cpu_util.o)
+ .debug_line    0x000111fa      0x391 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_bswapsi2.o)
+ .debug_line    0x0001158b      0xada c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(_udivdi3.o)
 
 .debug_str      0x00000000     0x9dce
  .debug_str     0x00000000      0x9e9 C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/build/bootloader/main\libmain.a(bootloader_start.o)
