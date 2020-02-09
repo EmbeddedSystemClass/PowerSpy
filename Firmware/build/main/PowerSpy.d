@@ -57,6 +57,8 @@ PowerSpy.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
+ C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/esp-idf-lib/components/ads111x/ads111x.h \
+ C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/esp-idf-lib/components/i2cdev/i2cdev.h \
  C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/i2c.h \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/queue.h \
@@ -178,6 +180,10 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
+
+C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/esp-idf-lib/components/ads111x/ads111x.h:
+
+C:/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/esp-idf-lib/components/i2cdev/i2cdev.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/i2c.h:
 
