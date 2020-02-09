@@ -42,6 +42,8 @@ PowerSpy.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/task.h \
  C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/list.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h \
  C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/gpio.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h \
  C:/msys32/home/ADM/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
@@ -54,7 +56,14 @@ PowerSpy.o: \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_caps.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h \
- C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h
+ C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/i2c.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/i2c_types.h \
+ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/i2c_caps.h
 
 C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -140,6 +149,10 @@ C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/task.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/list.h:
 
+C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/log/include/esp_log_internal.h:
+
 C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/gpio.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_common/include/esp_types.h:
@@ -165,4 +178,18 @@ C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/gpio_types.h:
 
 C:/msys32/home/ADM/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/driver/include/driver/i2c.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/semphr.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/soc/include/hal/i2c_types.h:
+
+C:/msys32/home/ADM/esp/esp-idf/components/soc/esp32/include/soc/i2c_caps.h:
 /c/Users/ADM/Documents/Eagle/projects/PowerSpy/Firmware/main/./PowerSpy.c:
