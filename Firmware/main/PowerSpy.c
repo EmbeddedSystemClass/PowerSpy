@@ -41,7 +41,8 @@
 #define SCL_GPIO 22
 
 
-#define GAIN ADS111X_GAIN_4V096 // +-4.096V
+//#define GAIN ADS111X_GAIN_4V096 // +-4.096V
+#define GAIN ADS111X_GAIN_2V048 // +-2.048V
 
 // I2C addresses
 static const uint8_t addr[DEV_COUNT] = {
@@ -56,16 +57,15 @@ static i2c_dev_t devices[DEV_COUNT];
 static float gain_val;
 
 
-// Main task
-void ads111x_test(void *pvParamters)
-{
+
+void ads111x_test(void *pvParamters) {
     gain_val = ads111x_gain_values[GAIN];
 
     // Setup ICs
 	ESP_ERROR_CHECK(ads111x_init_desc(&devices[0], addr[0], I2C_PORT, SDA_GPIO, SCL_GPIO));
 
 	ESP_ERROR_CHECK(ads111x_set_mode(&devices[0], ADS111X_MODE_CONTUNOUS));    // Continuous conversion mode
-	ESP_ERROR_CHECK(ads111x_set_data_rate(&devices[0], ADS111X_DATA_RATE_32)); // 32 samples per second
+	ESP_ERROR_CHECK(ads111x_set_data_rate(&devices[0], ADS111X_DATA_RATE_8)); // 32 samples per second
 	ESP_ERROR_CHECK(ads111x_set_input_mux(&devices[0], ADS111X_MUX_1_GND));    // positive = AIN0, negative = GND
 	ESP_ERROR_CHECK(ads111x_set_gain(&devices[0], GAIN));
 
@@ -84,27 +84,49 @@ void ads111x_test(void *pvParamters)
 		int16_t raw = 0;
 		if (ads111x_get_value(&devices[0], &raw) == ESP_OK)
 		{
-			float voltage = gain_val / ADS111X_MAX_VALUE * raw;
-			printf("[%u] Raw ADC value: %d, voltage: %.04f volts\n", 0, raw, voltage);
+			//float voltage = gain_val / ADS111X_MAX_VALUE * raw;
+			//printf("[%u] Raw ADC value: %d, voltage: %.04f volts\n", 0, raw, voltage);
+			printf("%d\n", raw);
 		}
 		else
 			printf("[%u] Cannot read ADC value\n", 0);
 
 
 
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
     }
 }
 
-void app_main()
-{
-    // Init library
+void led_controller(void *pvParameter) {
+	while(1)
+	{
+		gpio_set_level(LED_GREEEN_PIN, 1);
+		vTaskDelay(1000 / portTICK_PERIOD_MS);
+		gpio_set_level(LED_GREEEN_PIN, 0);
+		vTaskDelay(1000 / portTICK_PERIOD_MS);
+	}
+}
+
+void app_main() {
+	gpio_pad_select_gpio(LED_RED_PIN);
+	gpio_pad_select_gpio(LED_GREEEN_PIN);
+	gpio_pad_select_gpio(LED_BLUE_PIN);
+	gpio_pad_select_gpio(BUTTON_PROG_PIN);
+
+	gpio_set_direction(LED_RED_PIN,    GPIO_MODE_OUTPUT);
+	gpio_set_direction(LED_GREEEN_PIN, GPIO_MODE_OUTPUT);
+	gpio_set_direction(LED_BLUE_PIN,   GPIO_MODE_OUTPUT);
+	gpio_set_direction(BUTTON_PROG_PIN, GPIO_MODE_INPUT);
+
+	gpio_set_level(LED_RED_PIN, 0);
+	gpio_set_level(LED_GREEEN_PIN, 0);
+	gpio_set_level(LED_BLUE_PIN, 0);
+
     ESP_ERROR_CHECK(i2cdev_init());
 
-    // Clear device descriptors
     memset(devices, 0, sizeof(devices));
 
-    // Start task
     xTaskCreatePinnedToCore(&ads111x_test, "ads111x_test", configMINIMAL_STACK_SIZE * 8, NULL, 5, NULL, PRO_CPU_NUM);
+    xTaskCreate(&led_controller, "led_controller", 2048, NULL, 1, NULL);
 }
 
