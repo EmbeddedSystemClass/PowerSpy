@@ -41,8 +41,8 @@
 #define SCL_GPIO 22
 
 
-//#define GAIN ADS111X_GAIN_4V096 // +-4.096V
-#define GAIN ADS111X_GAIN_2V048 // +-2.048V
+#define GAIN ADS111X_GAIN_4V096 // +-4.096V
+
 
 // I2C addresses
 static const uint8_t addr[DEV_COUNT] = {
@@ -84,16 +84,16 @@ void ads111x_test(void *pvParamters) {
 		int16_t raw = 0;
 		if (ads111x_get_value(&devices[0], &raw) == ESP_OK)
 		{
-			//float voltage = gain_val / ADS111X_MAX_VALUE * raw;
+			float voltage = (4.096 / ADS111X_MAX_VALUE * raw) * 38;
 			//printf("[%u] Raw ADC value: %d, voltage: %.04f volts\n", 0, raw, voltage);
-			printf("%d\n", raw);
+			printf("%.04f\n", voltage);
 		}
 		else
 			printf("[%u] Cannot read ADC value\n", 0);
 
 
 
-        vTaskDelay(100 / portTICK_PERIOD_MS);
+        vTaskDelay(10 / portTICK_PERIOD_MS);
     }
 }
 
