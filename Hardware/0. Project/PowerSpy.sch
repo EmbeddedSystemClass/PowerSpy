@@ -14437,7 +14437,7 @@ DIN A3, landscape with extra doc field</description>
 <plain>
 <text x="307.975" y="26.035" size="3.81" layer="94">Tiago Silva</text>
 <text x="290.83" y="19.685" size="2.54" layer="94">github.com/TiagoPaulaSilva/PowerSpy</text>
-<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">2.0</text>
+<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">2.1</text>
 <text x="306.705" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
 <text x="261.62" y="154.94" size="1.778" layer="97" align="center">AC/DC Converter Module
 3W / 5V</text>
@@ -16178,6 +16178,34 @@ PHASE 2</text>
 <wire x1="19.05" y1="162.56" x2="21.59" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="21.59" y1="162.56" x2="21.59" y2="153.67" width="0.1524" layer="91"/>
 <pinref part="PE4" gate="M" pin="PE"/>
+</segment>
+</net>
+<net name="JLINK-TDO" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="IO15"/>
+<wire x1="358.14" y1="90.17" x2="361.95" y2="90.17" width="0.1524" layer="91"/>
+<label x="361.95" y="90.17" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="JLINK-TCK" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="IO13"/>
+<wire x1="358.14" y1="95.25" x2="361.95" y2="95.25" width="0.1524" layer="91"/>
+<label x="361.95" y="95.25" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="JLINK-TDI" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="IO12"/>
+<wire x1="358.14" y1="97.79" x2="361.95" y2="97.79" width="0.1524" layer="91"/>
+<label x="361.95" y="97.79" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="JLINK-TMS" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="IO14"/>
+<wire x1="358.14" y1="92.71" x2="361.95" y2="92.71" width="0.1524" layer="91"/>
+<label x="361.95" y="92.71" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
